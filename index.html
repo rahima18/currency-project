@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="algo3/style.css">
+    <title>Currency converter</title>
+</head>
+<body>
+    <header>
+<div class="container">
+
+            <img src="algo3/Asset 1@3x 1.png" alt="">
+            <nav>
+                <ul class="menu">
+                <li class="select">БАНК</li>
+                <li>БИЗНЕС</li>
+                  <li>ИНВЕСТИЦИИ</li>
+                  <li>СТРАХОВАНИЕ</li>
+                  <li>МОБАЙЛ</li>
+                 <li>ПУТЕШЕСТВИЯ</li>
+                 <li>РАЗВЛЕЧЕНИЯ</li>
+                  <li><span><b>ВОЙТИ</b></span></li>
+                </ul>
+            </nav>
+
+</div>
+    </header>
+    <main>
+        <h1>Конвертер валют онлайн</h1>
+<div class="mainText">
+
+            <div class="left">
+                <p class="text">У меня есть </p>
+                <div id="fromCur" class="currency">
+                    <button id="RUB" class="from selected">RUB</button>
+                    <button id="USD" class="from">USD</button>
+                    <button id="EUR" class="from">EUR</button>
+                    <button id="GBP" class="from">GBP</button>
+                </div>
+                <div class="area1">
+                    <input  value="1" class="amount1" min="0" type="number" onkeydown="javascript: return ['Backspace','Delete','ArrowLeft','ArrowRight'].includes(event.code) ? true : !isNaN(Number(event.key)) && event.code!=='Space'">
+                    <p class="areaText1"></p>
+                </div>
+            </div>
+            <div class="right">
+                <p class="text">Хочу приобрести</p>
+                <div id="toCur" class="currency2">
+                    <button id="RUB" class="to">RUB</button>
+                    <button id="USD" class="to selected">USD</button>
+                    <button id="EUR" class="to">EUR</button>
+                    <button id="GBP" class="to">GBP</button>
+                </div>
+                <div class="area2">
+                    <input type="number" class="amount2" min="0" onkeydown="javascript: return ['Backspace','Delete','ArrowLeft','ArrowRight'].includes(event.code) ? true : !isNaN(Number(event.key)) && event.code!=='Space'">
+                    <p class="areaText2"></p>
+                </div>
+            </div>
+
+</div>
+    </main>
+    <script src="algo3/script.js"></script>
+</body>
+</html>

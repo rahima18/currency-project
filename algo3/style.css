@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    background-color: #F5F5F6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+img {
+    width: 89px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-top: 4px;
+    margin-left: 150px;
+    padding-top: 6px;
+}
+
+nav {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.66px;
+    color: #959BA4;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 25px;
+}
+
+.select {
+    font-weight: 700;
+    color: black;
+}
+span {
+    background-color: white;
+    margin-left: 126px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+}
+
+h1 {
+    margin-top: 106px;
+    font-size: 40px;
+    margin-left: 290px;
+}
+
+.text {
+    display: inline-block;
+
+
+    color: #9F9F9F;
+    font-size: 15px;
+}
+
+.left {
+    margin-left: 290px;
+    margin-right: 122px;
+
+}
+
+button:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+button:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.currency, .currency2 {
+    width: 100%;
+}
+
+.currency2 button,
+.currency button {
+
+    display: inline;
+    list-style-type: none;
+    height: 40px;
+    width: 64px;
+    border: 1px solid #C6C6C6;
+    padding: 9px 20px 9px 20px;
+    color: #C6C6C6;
+    background-color: white;
+}
+
+.mainText {
+    display: flex;
+    margin: 0;
+    font-size: 0;
+}
+
+.currency button:hover {
+    background-color: #833AE0;
+    color: white;
+    cursor: pointer;
+}
+
+.currency2 button:hover {
+    background-color: #833AE0;
+    color: white;
+    cursor: pointer;
+}
+
+.currency .selected {
+    background-color: #833AE0;
+    color: white;
+}
+
+.currency2 button.selected {
+    background-color: #833AE0;
+    color: white;
+}
+
+
+.area1 {
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+    width: 255px;
+    height: 102px;
+    margin-top: 21px;
+    margin-right: 118px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.area2 {
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+    width: 255px;
+    height: 102px;
+    margin-top: 21px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.amount1, .amount2 {
+    border-style: none;
+    font-size: 36px;
+    font-weight: 700;
+    width: 100%;
+    padding-left: 14px;
+    padding-top: 11px;
+}
+
+.areaText1 {
+    color: #C6C6C6;
+    font-size: 12px;
+    margin-right: 15px;
+    width: 150px;
+    margin-top: 20px;
+
+}
+
+.areaText2 {
+    color: #C6C6C6;
+    font-size: 12px;
+    margin-right: 15px;
+    width: 150px;
+    margin-top: 20px;
+
+}
+
+
+.amount1:focus{
+    outline: none!important;
+}
+.amount2:focus{
+    outline: none!important;
+}
